@@ -2,7 +2,8 @@
 % Please edit documentation in R/plotCountry.R
 \name{plotCountry}
 \alias{plotCountry}
-\title{plotCountry}
+\title{plotCountry
+plot the life expectancy vs GDP for a given country}
 \usage{
 plotCountry(name)
 }
@@ -13,6 +14,7 @@ plotCountry(name)
 plot
 }
 \description{
+plotCountry
 plot the life expectancy vs GDP for a given country
 }
 \examples{
