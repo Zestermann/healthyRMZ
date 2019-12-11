@@ -3,7 +3,7 @@ Title: Examine Gapminder Data
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Martin",
-           family = "ZEstermann",
+           family = "Zestermann",
            role = c("aut", "cre"),
            email = "confidential@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
@@ -13,4 +13,8 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
-    forcats
+    forcats,
+    dplyr,
+    gapminder,
+    magrittr,
+    glue
